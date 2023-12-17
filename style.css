@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;500;600;700&family=Josefin+Sans:wght@200;400;600&display=swap');
+
+*{
+    margin: 0;
+}
+
+body {
+    background-color: #242424;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.Title {
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    font-family: Fredoka, Arial, Helvetica, sans-serif;
+}
+
+.image {
+    width: 18%;
+}
+
+.subTitle {
+    color: #17A2B8;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0 10px 0;
+    font-family: Fredoka, Arial, Helvetica, sans-serif;
+}
+
+.text {
+    width: 90%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.marker {
+    width: 20px;
+    height: 20px;
+    color: #17A2B8;
+}
+
+.textBlue {
+    color: #17A2B8;
+}
+
+@media (min-width: 1200px) and (max-width: 1919px) {
+    .text {
+        width: 50%;
+    }
+
+    .image {
+        width: 12%;
+    }
+
+    .Title {
+        margin-bottom: 10px;
+
+    }
+}
